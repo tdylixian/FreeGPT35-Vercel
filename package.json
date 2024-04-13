@@ -1,0 +1,17 @@
+{
+  "name": "@freegpt35/vercel-kv",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/kv": "^1.0.1",
+    "axios": "^1.6.8",
+    "gpt-3-encoder": "^1.1.4"
+  },
+  "type": "module"
+}

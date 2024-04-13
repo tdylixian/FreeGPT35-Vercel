@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "regions": ["sfo1"],
+  "rewrites": [
+    {
+      "source": "/v1/chat/completions",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/",
+      "destination": "/api/guide"
+    }
+  ]
+}
